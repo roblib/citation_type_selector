@@ -3,5 +3,9 @@ services:
     class: Drupal\citation_type_selector\Normalizer\FieldItemListNormalizer
     arguments: ['@config.factory']
     tags:
-      - { name: normalizer, priority: 100 }
+      - { name: normalizer, priority: 14 }
 
+  serializer.citation_style_selector.string_item:
+    class: Drupal\citation_type_selector\Normalizer\StringItemNormalizer
+    tags:
+      - { name: normalizer, priority: 12 }
