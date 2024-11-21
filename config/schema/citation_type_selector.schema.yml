@@ -1,0 +1,31 @@
+# Schema for the configuration files of the Citation type selector module.
+citation_type_selector.settings:
+  type: config_object
+  label: 'Citation Type Selector Settings'
+  mapping:
+    genre_field:
+      type: string
+      label: 'Content Classification Field'
+      description: 'The machine name of the field used for content classification.'
+    genre_vocabulary:
+      type: string
+      label: 'Classification Vocabulary'
+      description: 'The machine name of the taxonomy vocabulary used for content classification.'
+    csl_field:
+      type: string
+      label: 'Citation Type Field'
+      description: 'The machine name of the field used for citation type.'
+    csl_vocab:
+      type: string
+      label: 'Citation Type Vocabulary'
+      description: 'The machine name of the taxonomy vocabulary used for citation types.'
+    term_settings:
+      type: mapping
+      label: 'Term-to-CSL Mapping'
+      description: 'Mapping of taxonomy terms to their corresponding CSL styles.'
+      mapping:
+        '*':
+          type: string
+          label: 'CSL Style'
+          description: 'The CSL style associated with the term.'
+

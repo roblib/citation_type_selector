@@ -1,0 +1,6 @@
+citation_type_selector.citation_select_settings:
+  title: Citation select settings
+  description: select default citation style
+  parent: system.admin_config_system
+  route_name: citation_type_selector.citation_select_settings
+  weight: 10

@@ -1,0 +1,7 @@
+citation_type_selector.citation_select_settings:
+  path: '/admin/config/system/citation-select-settings'
+  defaults:
+    _title: 'Citation select settings'
+    _form: 'Drupal\citation_type_selector\Form\CitationSelectSettingsForm'
+  requirements:
+    _permission: 'administer site configuration'

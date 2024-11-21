@@ -1,0 +1,8 @@
+name: 'Citation Type Selector'
+type: module
+description: 'Creates default citation type by genre'
+package: Custom
+core_version_requirement: ^10 || ^11
+dependencies:
+  - islandora:islandora
+  - discovery_garden:islandora_citations

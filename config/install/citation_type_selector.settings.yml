@@ -1,0 +1,5 @@
+genre_field: 'field_genre'
+genre_vocabulary: 'genre'
+csl_field: 'field_csl_type'
+csl_vocab: 'csl_type'
+term_settings: {}

@@ -1,0 +1,7 @@
+services:
+  serializer.citation_style_selector.csljson.field_item_list:
+    class: Drupal\citation_type_selector\Normalizer\FieldItemListNormalizer
+    arguments: ['@config.factory']
+    tags:
+      - { name: normalizer, priority: 100 }
+
