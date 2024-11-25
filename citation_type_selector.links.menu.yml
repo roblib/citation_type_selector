@@ -1,6 +1,7 @@
 citation_type_selector.citation_select_settings:
-  title: Citation select settings
+  title: Citation style to type mapping
   description: select default citation style
-  parent: system.admin_config_system
+  parent: entity.islandora_citations.config_overview
+  
   route_name: citation_type_selector.citation_select_settings
   weight: 10
