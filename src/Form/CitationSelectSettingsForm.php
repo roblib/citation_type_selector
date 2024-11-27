@@ -170,13 +170,6 @@ final class CitationSelectSettingsForm extends ConfigFormBase {
         ];
       }
     }
-
-    // Add a submit button.
-    $form['submit'] = [
-      '#type' => 'submit',
-      '#value' => $this->t('Save'),
-    ];
-
     return parent::buildForm($form, $form_state);
   }
 
