@@ -1,0 +1,11 @@
+{
+    "name": "roblib/citation_type_selector",
+    "type": "drupal-custom-module",
+    "description": "Allows users to specify citation type based on genre of Islandora object.",
+    "license": "GPL-2.0-or-later",
+    "require": {
+        "drupal/islandora": "^2.0"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
