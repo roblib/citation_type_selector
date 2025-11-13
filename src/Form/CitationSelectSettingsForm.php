@@ -87,6 +87,7 @@ final class CitationSelectSettingsForm extends ConfigFormBase {
         }
       }
     }
+    asort($entity_reference_fields);
 
     $form['#attached']['library'][] = 'citation_type_selector/citation_type_selector_styles';
     $form['side_by_side'] = [
